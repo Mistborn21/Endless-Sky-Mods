@@ -1,0 +1,23 @@
+shipyard "Basic Ships"
+	"White Star"
+
+shipyard "Tarazed Basics"
+	"White Star"
+
+shipyard "Southbound Basics"
+	"White Star"
+
+shipyard "Lionheart Basics"
+	"White Star"
+
+shipyard "Betelgeuse Basics"
+	"White Star"
+
+shipyard "Navy Basics"
+	"White Star"
+
+shipyard "Megaparsec Basics"
+	"White Star"
+
+shipyard "Syndicate Basics"
+	"White Star"

@@ -1,0 +1,77 @@
+ship "Millennium Falcon"
+	sprite "ship/MillenniumFalcon"
+	attributes
+		category "Transport"
+		"cost" 0
+		"shields" 10000
+		"hull" 6000
+		"required crew" 1
+		"bunks" 800
+		"mass" 150
+		"drag" 5.1
+		"heat dissipation" .6
+		"fuel capacity" 1500
+		"cargo space" 3000
+		"outfit space" 5000
+		"weapon capacity" 1500
+		"engine capacity" 1500
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+
+		"Sidewinder Missile Launcher" 2
+		"Quad Blaster Turret" 8
+		"Sunbeam" 2
+		
+		"Large Reactor Module"
+		"Small Reactor Module" 2
+		"Overcharged Shield Module" 2
+		"Crystal Capacitor"
+		"Large Radar Jammer" 10
+		"Void Rifle" 150
+		"Pug Biodefenses" 5
+		"Scanning Module" 12
+		"Wanderer Heat Sink"
+		"Interference Plating" 100 
+		"Fuel Processor"
+		"Sidewinder Missile Rack" 100	
+		"Cloaking Device"
+		"Liquid Nitrogen Cooler" 2
+		
+		"Vareti Engine Block" 2
+		"Chipmunk Plasma Thruster"
+		`"Bufaer" Atomic Steering`
+		"Scram Drive"
+
+	gun -15 -93 "Sidewinder Missile Launcher"
+	gun 15 -93 "Sidewinder Missile Launcher"
+	turret 0 38 "Quad Blaster Turret"
+	turret 0 23 "Quad Blaster Turret"
+	gun 0 -63 "Sunbeam"
+	gun 0 -44 "Sunbeam"
+	turret -85 37 "Quad Blaster Turret"
+	turret 85 37 "Quad Blaster Turret"
+	turret 0 61 "Quad Blaster Turret"
+	turret 0 7 "Quad Blaster Turret"
+	turret 0 -5 "Quad Blaster Turret"
+	turret 0 -15 "Quad Blaster Turret"
+
+	engine 0 132
+	engine -50 115
+	engine 50 115
+	engine -30 125
+	engine 30 125
+	engine -40 120
+	engine 40 120
+	engine -15 128
+	engine 15 128
+	engine -60 110
+	engine 55 110
+	explode "tiny explosion" 10
+	explode "small explosion" 6
+	explode "medium explosion" 2
+	"final explode" "final explosion medium"
+	description "The Millennium Falcon. It is a YT-1300 freighter that has been heavily modified to become faster, stronger, and more powerful"

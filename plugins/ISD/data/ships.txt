@@ -1,0 +1,83 @@
+ship "ISD"
+	sprite "ship/ISD"
+	attributes
+		category "Heavy Warship"
+		"cost" 0
+		"shields" 20000
+		"hull" 10000
+		"required crew" 20
+		"bunks" 10000
+		"mass" 300
+		"drag" 15
+		"heat dissipation" .5
+		"fuel capacity" 30000
+		"cargo space" 7500
+		"outfit space" 20000
+		"weapon capacity" 30000
+		"engine capacity" 20000
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Pug Seeker" 4
+		"Plasma Cannon" 6
+		"Ion Cannon" 4
+		"Pug Gridfire Turret" 2
+		"Ka'het Annihilator Turret" 2
+		"Pulse Turret" 4
+		"Particle Cannon" 2
+		
+		"Large Reactor Module" 10
+		"Large Battery Module" 15
+		"Overcharged Shield Module" 1
+		"Large Heat Shunt" 20
+		"Large Radar Jammer" 5
+		"Laser Rifle" 10000
+		"Intrusion Countermeasures" 30
+		"Brig" 50
+		"Scanning Module" 16
+		"Interference Plating" 20
+		"Wanderer Ramscoop" 5
+		"Fuel Processor" 3
+		
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering" 2
+		"Hyperdrive"
+
+	gun -15 45 "Pug Seeker"
+	gun 15 45 "Pug Seeker"
+	gun 35 10 "Pug Seeker"
+	gun -35 10 "Pug Seeker"
+	gun -20 -71 "Plasma Cannon"
+	gun 20 -71 "Plasma Cannon"
+	gun -26.5 -43.5 "Plasma Cannon"
+	gun 26.5 -43.5 "Plasma Cannon"
+	gun -18 -88.5 "Plasma Cannon"
+	gun 18 -88.5 "Plasma Cannon"
+	gun -60 43.5 "Ion Cannon"
+	gun 60 43.5 "Ion Cannon"
+	gun 50 10 "Ion Cannon"
+	gun -50 10 "Ion Cannon"
+	gun -12 22.5 "Particle Cannon"
+	gun 12 22.5 "Particle Cannon"
+	turret -48 60 "Pulse Turret"
+	turret 48 60 "Pulse Turret"
+	turret 48 72 "Pulse Turret"
+	turret -48 72 "Pulse Turret"
+	turret -48 83 "Ka'het Annihilator Turret"
+	turret 48 83 "Ka'het Annihilator Turret"
+	turret -48 94 "Pug Gridfire Turret"
+	turret 48 94 "Pug Gridfire Turret"
+	engine -45 135
+	engine 45 135
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 15
+	"final explode" "final explosion small"
+	description "The Imperial Star Destroyer was designed and built by Kuat Drive Yards. Created to act as fleets onto themselves, ISDs have enough power to subdue and if needed, destroy, entire worlds. The sight of an ISD means that any criminals or terrorists better get out of the way."

@@ -1,0 +1,21 @@
+start "Millennium Falcon"
+    name "Millennium Falcon"
+    description `Start with a Millennium Falcon`
+    description `Its been a while, but you finally managed to restore the wreck you found when you were little. Part by part, year by year, you finally finished it. All it needs now is a new coat of paint, a new name, and a Captain. You. You enter the bank on New Boston and smile as you take out the loan. You need capital to start out with, for crew, cargo, and other costs you can't forsee currently. However, it's good to be prepared and so you get the money and smile as you head out the door, ready to join the galactic stage.`
+    thumbnail "scene/lobby"
+    date 16 11 3013
+    system "Rutilicus"
+    planet "New Boston"
+    conversation
+        `Please enter your name.`
+        name
+        `    Simulating...`
+    account
+        credits 480000
+        score 400
+        mortgage Mortgage
+            principal 480000
+            interest 0.004
+            term 365
+    set "license: Pilot's"
+    ship "Millennium Falcon" "Millennium Falcon"

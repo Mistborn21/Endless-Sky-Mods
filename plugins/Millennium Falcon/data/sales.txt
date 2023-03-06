@@ -1,0 +1,23 @@
+shipyard "Basic Ships"
+	"Millennium Falcon"
+
+shipyard "Tarazed Basics"
+	"Millennium Falcon"
+
+shipyard "Southbound Basics"
+	"Millennium Falcon"
+
+shipyard "Lionheart Basics"
+	"Millennium Falcon"
+
+shipyard "Betelgeuse Basics"
+	"Millennium Falcon"
+
+shipyard "Navy Basics"
+	"Millennium Falcon"
+
+shipyard "Megaparsec Basics"
+	"Millennium Falcon"
+
+shipyard "Syndicate Basics"
+	"Millennium Falcon"

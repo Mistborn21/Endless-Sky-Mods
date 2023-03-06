@@ -1,0 +1,7 @@
+fleet "Large Free Worlds"
+	add variant 1
+		"SSD"
+
+fleet "Large Republic"
+	add variant 1
+		"SSD"

@@ -1,0 +1,23 @@
+shipyard "Basic Ships"
+	"SSD"
+
+shipyard "Tarazed Basics"
+	"SSD"
+
+shipyard "Southbound Basics"
+	"SSD"
+
+shipyard "Lionheart Basics"
+	"SSD"
+
+shipyard "Betelgeuse Basics"
+	"SSD"
+
+shipyard "Navy Basics"
+	"SSD"
+
+shipyard "Megaparsec Basics"
+	"SSD"
+
+shipyard "Syndicate Basics"
+	"SSD"

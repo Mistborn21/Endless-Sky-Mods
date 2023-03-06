@@ -1,0 +1,79 @@
+fleet "Large Southern Pirates"
+	add variant 2
+		"White Star"
+		"Bastion (Laser)"
+	add variant 1
+		"Falcon (Laser)"
+		"White Star"
+	add variant 2
+		"White Star"
+
+fleet "Large Free Worlds"
+	add variant 9
+		"Bastion"
+		"White Star"
+	add variant 5
+		"Bastion (Heavy)"
+		"White Star"
+	add variant 6
+		"Bastion"
+		"Osprey"
+		"White Star"
+	add variant 2
+		"Falcon"
+		"Hawk" 2
+		"Sparrow" 3
+		"White Star"
+	add variant 1
+		"Falcon (Heavy)"
+		"White Star"
+		"Hawk" 2
+		"Sparrow" 3
+	add variant 2
+		"Falcon (Heavy)"
+		"Bastion (Heavy)"
+		"Hawk (Rocket)"
+		"White Star"
+	add variant 2
+		"Falcon (Laser)"
+		"Bastion (Laser)"
+		"Hawk (Bomber)"
+		"White Star"
+	add variant 1
+		"Hawk (Plasma)" 2
+		"Hawk (Bomber)" 2
+		"White Star"
+
+fleet "Large Core Pirates"
+	add variant 2
+		"White Star"
+	add variant 1
+		"White Star" 2
+
+fleet "Large Northern Pirates"
+	add variant 1
+		"Bactrian"
+		"Dagger" 3
+		"White Star"
+	add variant 1
+		"White Star" 2
+
+fleet "pirate raid"
+	add variant 2
+		"White Star" 1
+	add variant 1
+		"White Star" 3
+
+fleet "Syndicate Extremists"
+	add variant 1
+		"Leviathan"
+		"Firebird" 2
+		"White Star"
+	add variant 1
+		"Leviathan (Heavy)"
+		"Firebird (Missile)" 2
+		"White Star"
+	add variant 1
+		"Leviathan (Heavy)"
+		"Firebird (Plasma)" 2
+		"White Star"

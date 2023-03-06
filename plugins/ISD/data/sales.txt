@@ -1,0 +1,23 @@
+shipyard "Basic Ships"
+	"ISD"
+
+shipyard "Tarazed Basics"
+	"ISD"
+
+shipyard "Southbound Basics"
+	"ISD"
+
+shipyard "Lionheart Basics"
+	"ISD"
+
+shipyard "Betelgeuse Basics"
+	"ISD"
+
+shipyard "Navy Basics"
+	"ISD"
+
+shipyard "Megaparsec Basics"
+	"ISD"
+
+shipyard "Syndicate Basics"
+	"ISD"

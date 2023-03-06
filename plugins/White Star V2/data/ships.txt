@@ -1,0 +1,70 @@
+ship "White Star V2"
+	sprite "ship/WhiteStarV2"
+	attributes
+		category "Heavy Warship"
+		"cost" 0
+		"shields" 15500
+		"hull" 10000
+		"required crew" 1
+		"bunks" 600
+		"mass" 150
+		"drag" 3.1
+		"gaslining" 1
+		"heat dissipation" .5
+		"fuel capacity" 2000
+		"cargo space" 6000
+		"outfit space" 7000
+		"weapon capacity" 3000
+		"engine capacity" 2000
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Inhibitor Cannon" 6
+		"Moonbeam" 2
+		"Sunbeam" 3
+
+		"Antimatter Core"
+		"LP288a Battery Pack"
+		"Cooling Ducts"
+		"Overcharged Shield Module" 3
+		"Overclocked Repair Module" 4
+		"Liquid Nitrogen Cooler" 
+		"Cooling Ducts"
+		"Large Radar Jammer" 4
+		"Void Rifle" 600
+		"Pug Biodefenses" 8
+		"Brig" 9
+		"Scanning Module" 15
+		"Interference Plating" 15
+		"Wanderer Ramscoop" 3
+		"Fuel Processor" 2
+		"Cloaking Device"
+		
+		"Vareti Engine Block" 2
+		"Orca Plasma Thruster"
+		`"Bufaer" Atomic Steering` 3
+		"Scram Drive"
+		"Jump Drive"
+
+	gun -74 -25 "Inhibitor Cannon"
+	gun 74 -25 "Inhibitor Cannon"
+	gun -74 -3 "Inhibitor Cannon"
+	gun 74 -3 "Inhibitor Cannon"
+	gun -74 20 "Inhibitor Cannon"
+	gun 74 20 "Inhibitor Cannon"
+	gun -10 -125 "Moonbeam"
+	gun 10 -125 "Moonbeam"
+	gun 0 -158 "Sunbeam"
+	gun -33 -21 "Sunbeam"
+	gun 33 -21 "Sunbeam"
+	engine 0 80
+
+	explode "tiny explosion" 6
+	explode "small explosion" 5
+	explode "medium explosion" 2
+	explode "large explosion" 3
+	"final explode" "final explosion medium"
+	description "The White Star V2 is a larger, stronger, and more heavily armed version of its 'civilian' counterpart. It is a Heavy Warship, but its speed and cloaking allow it to fight targets most would quake at."

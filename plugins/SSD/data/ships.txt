@@ -1,0 +1,107 @@
+ship "SSD"
+	sprite "ship/SSD"
+	attributes
+		category "Heavy Warship"
+		"cost" 0
+		"shields" 250000
+		"hull" 170000
+		"required crew" 500
+		"bunks" 100000
+		"mass" 1500
+		"drag" 140
+		"heat dissipation" .3
+		"fuel capacity" 3000
+		"cargo space" 75000
+		"outfit space" 20000000
+		"weapon capacity" 3000000
+		"engine capacity" 2000000
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Drak Antimatter Cannon" 
+		"Particle Waveform Turret" 6
+		"Heavy Ion Cyclotron" 4
+		"Drak Turret" 4
+		"Korath Disruptor" 2
+		"Ka'het Annihilator Turret" 2
+		"Korath Repeater Turret" 2
+		"Plasma Cannon" 6
+		"Thrasher Cannon" 4
+		"Korath Slicer" 
+		
+		"Large Reactor Module" 3
+		"Large Battery Module" 10
+		"Overcharged Shield Module" 2
+		"Large Heat Shunt"
+		"Large Radar Jammer" 15
+		"Laser Rifle" 100000
+		"Intrusion Countermeasures" 90
+		"Brig" 200
+		"Luxury Accommodations" 20
+		"Research Laboratory" 1
+		"Scanning Module" 30
+		"Interference Plating" 40
+		
+		"A520 Atomic Thruster" 3
+		"A525 Atomic Steering" 5
+		"Hyperdrive"
+
+	turret -20 115 "Particle Waveform Turret"
+	turret 20 115 "Particle Waveform Turret"
+	turret -20 85 "Particle Waveform Turret"
+	turret 20 85 "Particle Waveform Turret"
+	turret -20 5 "Particle Waveform Turret"
+	turret 20 5 "Particle Waveform Turret"
+	turret -15 -125 "Ka'het Annihilator Turret"
+	turret 15 -125 "Ka'het Annihilator Turret"
+	turret -12.5 305 "Drak Turret"
+	turret 12.5 305 "Drak Turret"
+	turret -2.5 300 "Drak Turret"
+	turret 2.5 300 "Drak Turret"
+	turret -60 -16 "Korath Disruptor"
+	turret 60 -16 "Korath Disruptor"
+	turret -20 -255 "Korath Repeater Turret"
+	turret 20 -255 "Korath Repeater Turret"
+	gun 0 -350.5 "Korath Slicer"
+	gun 0 -180 "Drak Antimatter Cannon"
+	gun -10 -150 "Plasma Cannon"
+	gun 10 -150 "Plasma Cannon"
+	gun -25 -220 "Heavy Ion Cyclotron"
+	gun 25 -220 "Heavy Ion Cyclotron"
+	gun -15 -250 "Heavy Ion Cyclotron"
+	gun 15 -250 "Heavy Ion Cyclotron"
+	gun -55 -50 "Plasma Cannon"
+	gun 55 -50 "Plasma Cannon"
+	gun -65 32 "Plasma Cannon"
+	gun 65 32 "Plasma Cannon"
+	gun -35 -155 "Thrasher Cannon"
+	gun 35 -155 "Thrasher Cannon"
+	gun -15 -80 "Thrasher Cannon"
+	gun 15 -80 "Thrasher Cannon"
+	engine 76 175
+	engine 85 172
+	engine 97.5 168.5
+	engine -25 371
+	engine -0.5 380.5
+	engine 25.5 371.5
+	engine -97.5 168
+	engine -90.5 170
+	engine -81 172
+
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 20
+	explode "small explosion" 50
+	explode "medium explosion" 60
+	explode "large explosion" 100
+	"final explode" "final explosion large"
+	description "The Super Heavy SSD is built by Kuat Drive Yards (KDY) as a dreadnought and command ship for larger Imperial fleets following the Tarkin Doctrine. Massive weapons and turrets protect it, but all of its systems can overload and overheat the SSD when in constant combat."
+
+
+
+
+

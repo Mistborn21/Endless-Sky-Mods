@@ -1,0 +1,21 @@
+start "SSD"
+    name "SSD"
+    description `Start with an ISD Heavy Warship`
+    description `Flying was your dream. Now, its been fulfilled. An ISD, fully under your command, stands ready and waiting to bring death and destruction to all who oppose you.`
+    thumbnail "scene/lobby"
+    date 16 11 3013
+    system "Rutilicus"
+    planet "New Boston"
+    conversation
+        `Please enter your name.`
+        name
+        `    Simulating...`
+    account
+        credits 480000
+        score 400
+        mortgage Mortgage
+            principal 480000
+            interest 0.004
+            term 365
+    set "license: Pilot's"
+    ship "SSD" "Triumph"

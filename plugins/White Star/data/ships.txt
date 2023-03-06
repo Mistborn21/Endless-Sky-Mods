@@ -1,0 +1,58 @@
+ship "White Star"
+	sprite "ship/WhiteStar"
+	attributes
+		category "Transport"
+		"cost" 0
+		"shields" 8000
+		"hull" 3500
+		"required crew" 1
+		"bunks" 800
+		"mass" 130
+		"drag" 4.1
+		"heat dissipation" .5
+		"fuel capacity" 1700
+		"cargo space" 3000
+		"outfit space" 5000
+		"weapon capacity" 1500
+		"engine capacity" 1500
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Pug Zapper"
+		"Korath Detainer" 4
+		
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Overcharged Shield Module"
+		"Overclocked Repair Module"
+		"Large Radar Jammer"
+		"Void Rifle" 150
+		"Pug Biodefenses" 5
+		"Brig" 3
+		"Scanning Module" 4
+		"Interference Plating" 10
+		"Wanderer Ramscoop" 3
+		"Fuel Processor"	
+		"Cloaking Device"
+		"Liquid Nitrogen Cooler"
+		
+		"Vareti Engine Block" 2
+		"Chipmunk Plasma Thruster"
+		`"Bufaer" Atomic Steering` 2
+		"Scram Drive"
+
+	gun -32 -11 "Korath Detainer"
+	gun 32 -11 "Korath Detainer"
+	gun 32 0 "Korath Detainer"
+	gun -32 0 "Korath Detainer"
+	gun 0 -65 "Pug Zapper"
+
+	engine 0 25
+	explode "tiny explosion" 10
+	explode "small explosion" 6
+	explode "medium explosion" 2
+	"final explode" "final explosion medium"
+	description "The White Star is a Light Warship by mass only. It tends to be able to punch far above its weight, but its designed to drop cargo and people off in hot zones more than deal with direct combat. Its speed and cloaking allow it to avoid most fights it chooses to ignore."

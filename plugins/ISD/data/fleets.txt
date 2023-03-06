@@ -1,0 +1,31 @@
+fleet "Large Southern Pirates"
+	add variant 1
+		"ISD"
+
+fleet "Large Free Worlds"
+	add variant 3
+		"Bastion"
+		"Osprey"
+		"ISD"
+	add variant 1
+		"ISD" 2
+
+fleet "Large Core Pirates"
+	add variant 1
+		"ISD"
+
+fleet "Large Northern Pirates"
+	add variant 1
+		"ISD"
+
+fleet "pirate raid"
+	add variant 1
+		"ISD" 
+
+fleet "Syndicate Extremists"
+	add variant 1
+		"ISD"
+	add variant 1
+		"Leviathan (Heavy)"
+		"Firebird (Plasma)" 2
+		"ISD"

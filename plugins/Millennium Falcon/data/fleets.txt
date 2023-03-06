@@ -1,0 +1,79 @@
+fleet "Large Southern Pirates"
+	add variant 2
+		"Millennium Falcon"
+		"Bastion (Laser)"
+	add variant 1
+		"Falcon (Laser)"
+		"Millennium Falcon"
+	add variant 2
+		"Millennium Falcon"
+
+fleet "Large Free Worlds"
+	add variant 9
+		"Bastion"
+		"Millennium Falcon"
+	add variant 5
+		"Bastion (Heavy)"
+		"Millennium Falcon"
+	add variant 6
+		"Bastion"
+		"Osprey"
+		"Millennium Falcon"
+	add variant 2
+		"Falcon"
+		"Hawk" 2
+		"Sparrow" 3
+		"Millennium Falcon"
+	add variant 1
+		"Falcon (Heavy)"
+		"Millennium Falcon"
+		"Hawk" 2
+		"Sparrow" 3
+	add variant 2
+		"Falcon (Heavy)"
+		"Bastion (Heavy)"
+		"Hawk (Rocket)"
+		"Millennium Falcon"
+	add variant 2
+		"Falcon (Laser)"
+		"Bastion (Laser)"
+		"Hawk (Bomber)"
+		"Millennium Falcon"
+	add variant 1
+		"Hawk (Plasma)" 2
+		"Hawk (Bomber)" 2
+		"Millennium Falcon"
+
+fleet "Large Core Pirates"
+	add variant 2
+		"Millennium Falcon"
+	add variant 1
+		"Millennium Falcon" 2
+
+fleet "Large Northern Pirates"
+	add variant 1
+		"Bactrian"
+		"Dagger" 3
+		"Millennium Falcon"
+	add variant 1
+		"Millennium Falcon" 2
+
+fleet "pirate raid"
+	add variant 2
+		"Millennium Falcon" 1
+	add variant 1
+		"Millennium Falcon" 3
+
+fleet "Syndicate Extremists"
+	add variant 1
+		"Leviathan"
+		"Firebird" 2
+		"Millennium Falcon"
+	add variant 1
+		"Leviathan (Heavy)"
+		"Firebird (Missile)" 2
+		"Millennium Falcon"
+	add variant 1
+		"Leviathan (Heavy)"
+		"Firebird (Plasma)" 2
+		"Millennium Falcon"
